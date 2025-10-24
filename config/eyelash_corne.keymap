@@ -124,8 +124,8 @@
             bindings = <
 &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &trans        &kp N0    &trans    &trans      &trans     &trans  &kp BACKSLASH
 &trans     &kp N4  &kp N5  &kp N6  &kp MINUS             &kp EQUAL                &trans        &trans        &trans        &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT  &trans  &trans
-&trans     &kp N7  &kp N8  &kp N9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans        &trans        &kp LBRC  &kp RBRC  &kp DELETE  &trans     &trans  &trans
-                           &trans  &trans                &trans
+&trans     &kp N7  &kp N8  &kp N9  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &trans        &trans        &kp LBRC  &kp RBRC  &kp DELETE  
+                            &trans     &trans  &trans    &trans  &trans                &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -137,7 +137,7 @@
 &trans  &kp F1  &kp F2  &kp F3  &kp F4   &kp F5     &trans        &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC  &trans  &trans  &trans      &bt BT_SEL 0
 &trans  &kp F6  &kp F7  &kp F8  &kp F9   &kp F10    &trans        &trans        &trans        &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC  &trans  &trans  &trans      &bt BT_SEL 1
 &trans  &trans  &trans  &trans  &kp F11  &kp F12    &trans        &trans        &kp K_MUTE         &trans                &trans  &trans  &bt BT_CLR  &bt BT_SEL 2
-                        &trans  &trans   &trans
+                            &trans  &trans   &trans  &trans  &trans   &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
